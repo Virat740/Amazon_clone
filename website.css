@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* resets */
+
+* {margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;}
+
+  :root { --primary-text-color: #183b56;
+          --secondary-text-color: #577592;
+          --accent-color: #2294ed;
+        --accent-color-dark: #1d69a3;
+         --padding-inline-section:20px;}
+
+  body {font-family: sans-serif;
+       color: var(--primary-text-color);}
+       
+   h1 {font-size: 3rem;}
+   h2 {font-size: 2rem;}
+   h2 {font-size: 1.5rem;}
+   
+   p {font-family: sans-serif;
+     font-size: 1.25rem;
+     color: var(--secondary-text-color);
+    line-height: 1.8rem;}
+
+    a {text-decoration: none;
+        display: inline-block;} 
+        
+    ul {list-style: none;
+        font-weight: bold;}
+
+
+
+ /* utility classes  */
+
+    .smallbold {font-size: 1rem;
+                 font-weight: 700;}  
+                 
+     .container {max-width: 1180px;
+                margin-inline: auto;
+                padding-inline: var(--padding-inline-section);
+               overflow: hidden;}            
+
+       .flex {display: flex;
+             align-items: center;}
+
+        .hoverlink {color: var(--primary-text-color);}
+        .hoverlink:hover {color: var(--accent-color);
+                           transition: 0.2s ease-out;}
+         
+         .button2 {background-color: var(--accent-color);
+                   border-radius: 6px;
+                    font-weight: 700;
+                    color: white !important;
+                   padding: 12px 24px;
+                    box-shadow: 0 0 2px var(--secondary-text-color);
+                  transition: 0.2s ease-out;}  
+
+         .button2:hover {background-color: var(--accent-color-dark);}                        
+
+         .button1 {border: 0.5px solid var(--secondary-text-color);
+                   border-radius: 6px;
+                   font-weight: 700;
+                   color: var(--primary-text-color) !important;
+                  padding: 12px 24px;
+                  transition: 0.2s ease-out;}
+
+          .buttton1:hover {border-color: var(--accent-color);
+                           color: var(--accent-color);}        
+
+
+
+        /* top banner  */
+     .topbanner { background-image: url("assets/asset 32.png"); 
+                  background-size: 300px;
+                  background-color: #4fb3d4;}  
+
+      .bannertext {color: white;
+                    padding: 15px 30px;
+                  text-align: center;}          
+
+
+
+       /* nav bar  */
+     .mainnav { margin-top: 20px;
+              justify-content: space-between;} 
+
+    .logo img {width: 200px;}
+
+    .menu {flex-basis: 730px;}
+
+    .menu ul {justify-content: end;
+              gap: 40px;}
+
+     .menu-toggle {display: none;}         
+
+
+      /* header  */
+      header {padding: 50px var(--padding-inline-section) 0;}
+
+       .headersection { justify-content: center;
+                        gap: 50px;}
+        
+       .headerright img{ width: 100%;}
+       .headerleft {max-width: 40vw;}
+        .headerleft h1 {margin-top: 20px;}  
+        
+      a {margin-top: 20px;}
+
+
+
+      /* companies section */
+      .companies {text-align: center;
+                  margin-block: 30px;
+                 color: var(--primary-text-color);}
+        
+       .logos {margin-top: 20px;
+              justify-content: space-between;
+               flex-wrap: wrap;}
+
+       .logo1 {height: 46px;}    
+       
+
+
+       /* features section */
+       .features {padding: 80px var(--padding-inline-section) 0;
+                  background-image: url("assets/asset 34.svg");
+                  background-repeat: no-repeat;
+                 background-position: center;}
+
+       .featurehead h2 {margin-bottom: 20px;}
+       .featurehead {text-align: center;}
+      
+      .featurescard {flex-direction: column;
+                    gap: 10px;}
+
+      .featuresarea {flex-wrap: wrap;
+                    justify-content: space-between;}
+
+      .featurescard { flex-direction:column;
+                      max-width: 30%;
+                      margin-top: 20px;
+                     text-align: center;}
+      
+         
+      /*big features sections */
+      .bigfeatures {padding: 30px var(--padding-inline-section) 0;}
+
+      .container1 {gap: 30px;}
+
+      .featureimg .img1 {width: 50%;
+                         margin: 50px;}
+
+      .discription {flex-direction: column;
+                    align-items: flex-start;}
+
+        .small{ width: 30%;}     
+        
+        
+        /* example box */
+        .container2 {justify-content: center;
+                    align-items: center;
+                   text-align: center;}
+
+        
+          /* cards */
+          .cards {width: 23%;
+                  position: relative;
+                 min-height: 300px;
+                margin: 50px 20px;
+                border-radius: 3px;
+                flex-wrap: wrap;}
+      
+        .card1 {background-image: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url("assets/asset 36.jpeg");
+                background-size: cover;}  
+        .card2 {background-image: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)),url("assets/asset 37.jpeg");
+                  background-size: cover;}              
+        .card3 {background-image: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url("assets/asset 38.jpeg");
+                background-size: cover;} 
+        .card4 {background-image: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)), url("assets/asset 39.jpeg");
+                  background-size: cover;} 
+                  
+         .cards:hover {box-shadow:0 0 10px #183b56;}          
+
+            .text {color: white;
+                   padding: 80% 10% 10% 10%;}      
+
+
+
+        /* footer */
+        footer {background-color: #183b56;
+               color: white;}
+        
+         .or {margin-top: 30px;
+              margin-left: 15px;
+             margin-right: 15px;}      
+
+        .container3 {height: 700px;
+                   display: flex;
+                     justify-content: center;
+                      align-items: flex-start;}
+
+         .img2 { height: 580px;
+                  width: 590px;
+                  margin-block: 50px;}
+
+          .buttons {display: flex;
+                    justify-content: flex-start;
+                  align-self: start;} 
+                  
+            .panel {display: flex;
+                    justify-content: center;
+                   align-items: flex-start;
+                  flex-direction: column;
+                  margin-block: 100px;
+                 gap: 20px;}      
+
+
+
+      /* subfooter */
+
+      .container4 {display: flex;
+                   justify-content: center;
+                  align-items: center;
+                  text-align: center;
+                  flex-direction: column;
+                 padding-block: 30px;}
+
+       
+          /* subfooter 2 */
+         
+        .container5 {padding-top: 60px;
+                      justify-content: space-between;
+                  align-items: baseline;
+                   padding-bottom: 60px;}  
+
+        .footerlogo {height: 30px;
+                   width: 130;}
+
+      li:hover {color: var(--accent-color-dark);
+                 transition: 0.2s ease-out;}                        
+            
+         li {margin-top: 10px;}        
+
+
+
+         /* subfooter 3 */
+      .container6 {justify-content: space-evenly;
+                   align-items:center;
+                   padding-block: 20px;}
+
+         .policy {display: flex;
+                  justify-content: space-evenly;
+                  align-items: center;
+                 gap: 30px;} 
+             
+        .sociallogo {display: flex;
+                     justify-content: space-evenly;
+                    align-items: center;
+                   gap: 20px;}  
+                 
+         .media {height: 15px;
+                 width: 18px;}
+
+         .policy p {font-size: 15px;}  
+         
+         .policy p:hover {color: var(--accent-color-dark);
+                           transition: 0.2s ease-out;}
+                    
+                           
+                                     
+                           

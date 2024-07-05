@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+* {padding: 0;
+   margin: 0;
+  box-sizing: border-box;}  
+  
+  body { font-family: sans-serif;
+       background-color: black;
+     color: white;}
+
+  .header {height: 100vh;
+        width: 100%;
+       background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("background netflix.jpg");
+        background-size: cover;
+       background-position: center;
+       padding: 10px 8%;
+       position: relative;}   
+
+  .logo {cursor: pointer;
+        width: 150px;}
+
+  .nav {display: flex;
+       align-items: center;
+       justify-content: space-between;
+      padding: 10px 0;}     
+
+ .border:hover {border: 1px white solid;}  
+ 
+ button{ border: 0;
+        outline: 0;
+       background-color: red;
+       color: wheat;
+      padding: 7px 20px;
+     border-radius: 4px;
+     margin-left: 10px;
+    cursor: pointer;}
+
+.content {position:absolute;
+         top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+       text-align: center;
+        margin-top: 100px;}
+    
+ .content h1 {font-size:60px;
+             line-height: 70px;
+             font-weight:600;
+            max-width: 650px;} 
+            
+ .content h3 {font-weight: 400;
+              margin-bottom: 20px;}
+            
+  .signup {background:transparent;
+           border: white solid 1.5px;
+           border-radius: 4px;
+          display: flex;
+          align-items: center;
+          margin-top: 30px;
+          overflow: hidden;}
+          
+ .signup input{ flex: 1;
+             border: none;
+            outline: 0;
+           margin-left: 20px;}
+           
+ .signup button{background-color: red;
+                border: 0;
+                outline: 0;
+                color: white;
+                font-size: 16px;
+                cursor: pointer;
+               padding: 15px 13px;}          
+
+.line {height: 5px;
+       width: 100%;
+       background: rgb(50, 49, 49);}
+
+ .features {height: 550px;
+            width: 100%;}
+
+.row {display: flex;
+       display: inline flex;
+       margin-top: 50px;
+      margin-left: 450px;
+   margin-right: 100px;}
+
+  
+ .column h2 {font-size:60px;
+             line-height: 70px;
+             font-weight:600;
+            max-width: 650px;} 
+            
+   p {font-size: x-large;}  
+ 
+ .column {display: block;
+      flex-basis: 50%;
+       margin-bottom: 20px;
+       position: relative;
+       right: 20%;
+       top: 150px;}
+
+       .img2 {position: relative;
+            right: 300px;}
+
+.column2 h2 {font-size:60px;
+             line-height: 70px;
+             font-weight:600;
+            max-width: 650px;}
+            
+   .column2 {position: relative;
+          top: 150px;
+           right: 100px;} 
+
+
+  .column3 h2 {font-size:60px;
+             line-height: 70px;
+             font-weight:600;
+            max-width: 650px;}  
+        
+  .column3 {position: relative;
+            top: 150px;
+            right: 150px;} 
+            
+            
+    .img4 {position: relative;
+          right: 300px;}
+       
+          
+    .column4 h2 {font-size:60px;
+             line-height: 70px;
+             font-weight:600;
+            max-width: 650px;} 
+            
+     .column4 {position: relative;
+               top: 150px;
+               right: 100px;}  
+               
+    .footer {display: flex;
+              justify-content: center;
+               align-items: center;}           
+          
+ .footermail {background:rgb(70, 69, 69);
+            border: white solid 1.5px;
+            border-radius: 4px;
+           display: flex;
+           align-items: center;
+           margin-top: 30px;
+           overflow: hidden;
+            width: 500px;
+         margin-bottom: 50px;}
+           
+  .footermail input{ flex: 1;
+              border: none;
+             outline: 0;
+            margin-left: 20px;}
+            
+  .footermail button{background-color: red;
+                 border: 0;
+                 outline: 0;
+                 color: white;
+                 font-size: 16px;
+                 cursor: pointer;
+                padding: 15px 13px;}
+
+
+  .para {text-align: center;
+         padding-top: 25px;}              
+
+.footer1 {display: flex;
+          justify-content: space-evenly;
+         align-items: start;
+        width: 100%;
+        height: 200px;}
+
+.ul:hover, span:hover{ text-decoration: underline;
+                       cursor: pointer;}         
+
+.footer2 {display: flex;
+           justify-content: space-evenly;
+        align-items: center;
+          width: 100%;
+         height: 200px;}

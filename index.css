@@ -1,0 +1,11 @@
+body {background-image: url("2560x1440-blue-abstract-noise-free-website-background-image.jpg");
+   background-size: cover;}
+
+   .project {height: 600px;
+    width: 100%;
+    border: 4px black solid;
+  background-color: blueviolet;
+ text-align: center;}
+
+a {color: white;
+  text-decoration: none;}
